@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRINT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.1">
+	<style type="text/css">
+		@media (min-width: 500px) {
+			body {
+				background-color: red;
+			}
+			h1::before {
+				content: "Welcome to this Page";
+			}
+		}
+
+		@media (max-width: 499px) {
+			body {
+				background-color: pink;
+			}
+			h1::before {
+				content: "Welcome";
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1> RESPONSIVE WEB PAGE and changes color and prefix with window size.</h1>
+</body>
+</html>
